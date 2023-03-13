@@ -1,0 +1,52 @@
+body{
+	margin: 1rem auto;
+	padding: 3rem;
+	font-family: sans-serif;
+}
+header {
+	width: 50%;
+	margin: 1rem auto;
+}
+
+main{
+	min-width: 25rem;
+	max-width: 50%;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#statement{
+	border: 1px solid black;
+	border-radius: 0.5rem;
+	box-shadow: 5px 5px 5px grey;
+	text-align: center;
+	font-size: x-large;
+	margin: 1rem 0px;
+	padding: 1rem;
+	min-height: 2rem;
+}
+
+#explanation{
+	padding: 1rem;
+	text-align: center;
+}
+
+#options{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+button{
+	margin: 2px 0px;
+	padding: 0.5rem;
+	font-size: medium;
+
+}	
+.correct {
+	background-color: lightgreen;
+}
+.incorrect {
+	background-color: lightpink;
+}
